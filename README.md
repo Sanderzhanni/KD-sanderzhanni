@@ -1,2 +1,10 @@
-# KD-sanderzhanni
-Kasutajaliidese disaini repo 2020
+*# KD-sanderzhanni
+
+## Autor
+sander Hanni
+
+## Leht
+https://www.lhv.ee/et/ (esialgselt)
+
+## Tech
+React, Typescript, *Bootstrap*
