@@ -1,4 +1,4 @@
-*# KD-sanderzhanni
+# KD-sanderzhanni
 
 ## Autor
 sander Hanni
@@ -7,4 +7,4 @@ sander Hanni
 https://www.lhv.ee/et/ (esialgselt)
 
 ## Tech
-React, Typescript, *Bootstrap*
+React, Typescript, **Bootstrap**
