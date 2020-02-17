@@ -1,0 +1,30 @@
+@media only screen and (max-width: 500px) {
+
+  .nav-container{
+    width: 100%;
+  }
+
+  .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 60px;
+    padding: 0 15px;
+  }
+
+  .lhv-logo{
+    width: 84px;
+    height: 28px;
+  }
+
+  .nav-button{
+    background: #3b3b47;
+    color: white;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 10px 18px;
+    font-family: 'Neue Helvetica W06','Helvetica Neue',sans-serif;
+    border-radius: 5px;
+  }
+}

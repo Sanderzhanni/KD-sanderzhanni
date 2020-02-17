@@ -1,10 +1,10 @@
 # KD-sanderzhanni
 
-## Autor
+## Author
 sander Hanni
 
-## Leht
-https://www.lhv.ee/et/ (esialgselt)
+## Page
+https://www.lhv.ee/et/
 
 ## Tech
 React, Typescript, **Bootstrap**
