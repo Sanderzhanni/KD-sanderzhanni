@@ -1,5 +1,13 @@
 # KD-sanderzhanni
+Trying out first framework bootstrap.
 
+## Install
+```
+Clone repository
+
+$ npm install
+$ npm run start
+```
 ## Author
 sander Hanni
 
@@ -8,3 +16,4 @@ https://www.lhv.ee/et/
 
 ## Tech
 React, Typescript, **Bootstrap**
+

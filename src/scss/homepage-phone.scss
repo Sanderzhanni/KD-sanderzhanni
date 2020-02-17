@@ -27,4 +27,33 @@
     font-family: 'Neue Helvetica W06','Helvetica Neue',sans-serif;
     border-radius: 5px;
   }
+
+  .footer-container{
+    width: 100%;
+    display: block;
+    background-color: $lhv-footer-background-color;
+    padding: 40px 0;
+  }
+
+  .content{
+    display: block;
+  }
+
+  .card-header{
+    padding: 0 !important;
+  }
+
+  .btn-link{
+    color: black;
+  }
+
+  .accordion-header{
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .card{
+    border: none !important;
+  }
+
 }
