@@ -1,3 +1,18 @@
 body{
   background-color: $base-background-color;
 }
+
+@media only screen and (min-width: 500px){
+  .warning{
+    background-color: orange;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .warning{
+    display: none;
+  }
+}

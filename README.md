@@ -1,6 +1,9 @@
 # KD-sanderzhanni
 Trying out first framework bootstrap.
 
+# View online
+https://hannis-kd-2020.herokuapp.com/
+
 ## Install
 ```
 Clone repository

@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 const App: React.FC = () => {
   return (
         <BrowserRouter>
+            <div className={"warning"}>SWITCH TO MOBILE VIEW</div>
           <Header/>
             <Route exact path={"/"} component={Homepage}/>
           <Footer/>
