@@ -38,7 +38,7 @@ class Footer extends React.PureComponent<{}, Props>{
     public render(){
         return(
             <>
-                <div className={"footer-container"} >
+                <div className={"footer-container"}>
                     <Acc HandleAccordionToggle={this.HandleAccordionToggle} activeName={this.state.activeEvent}/>
                     <SocialMediaIcons/>
                     <Disclaimer/>
@@ -150,6 +150,7 @@ interface FooterLinkProps {
 
 const FooterLink = (props: FooterLinkProps) =>(
   <>
+      <li>sth</li>
       <div className={"footer__body--link"}>
           <Link to={props.path}>
               <div>

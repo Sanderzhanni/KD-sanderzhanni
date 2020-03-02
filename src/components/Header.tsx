@@ -1,4 +1,5 @@
 import React from 'react';
+// @ts-ignore
 import logo from '../lhv.png';
 
 const Header = (): React.ReactElement =>(
