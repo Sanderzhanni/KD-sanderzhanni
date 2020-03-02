@@ -32,7 +32,7 @@
     width: 100%;
     display: block;
     background-color: $lhv-footer-background-color;
-    padding: 40px 0;
+    padding: 40px 0 20px 0;
   }
 
   .content{
@@ -41,19 +41,67 @@
 
   .card-header{
     padding: 0 !important;
+    border: none;
+    position: relative;
   }
 
   .btn-link{
     color: black;
+    font-family: "Helvetica Neue";
+
   }
 
+  .btn-link:hover, .btn-link:visited, .btn-link:link, .btn-link:active
+  {
+    text-decoration: none;
+    color: black;
+  }
+
+  .footer__body--link{
+    font-size: 14px;
+    color: black;
+  }
+
+  .footer__body--link a{
+    color: black;
+  }
+
+
   .accordion-header{
+
     font-size: 13px;
     font-weight: 600;
   }
 
   .card{
     border: none !important;
+  }
+
+  .card-body{
+    background-color: #f8f8f8;
+  }
+
+  .accordion__icon{
+    position: absolute;
+    top: 15%;
+    right: 5%;
+  }
+
+  .socialmedia__icons{
+    font-size: 25px;
+    color: black;
+    margin-right: 10px;
+  }
+
+  .footer__disclaimer{
+    margin: 10px;
+    font-size: 12px;
+    color: gray;
+  }
+
+  .socialmedia__icons__container{
+    margin: 15px 0 25px 0;
+    padding-left: 10px;
   }
 
 }
