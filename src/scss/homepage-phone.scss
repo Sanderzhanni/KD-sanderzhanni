@@ -104,4 +104,43 @@
     padding-left: 10px;
   }
 
+  .carousel__comp{
+    height: 580px;
+    padding-bottom: 150px;
+  }
+
+  .--carousel__img{
+    overflow: hidden;
+  }
+
+  .carousel__caption{
+    top: 35%;
+  }
+
+  .caption__title{
+    font-size: 45px;
+  }
+
+  .--color__black{
+    color: black;
+  }
+
+  .--position__low{
+    top: 50%;
+  }
+
+  .caption__li{
+    float: left;
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .caption__redir{
+    margin-top: 10px;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+  }
+
 }

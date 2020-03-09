@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`testing footer component renders correctly 1`] = `
 <div
   className="footer-container"
 >
@@ -63,9 +63,6 @@ exports[`renders correctly 1`] = `
         <div
           className="card-body"
         >
-          <li>
-            sth
-          </li>
           <div
             className="footer__body--link"
           >
@@ -73,14 +70,13 @@ exports[`renders correctly 1`] = `
               href="/todo"
               onClick={[Function]}
             >
-              <div>
+              <div
+                className="footerlink__name"
+              >
                 Eraklient
               </div>
             </a>
           </div>
-          <li>
-            sth
-          </li>
           <div
             className="footer__body--link"
           >
@@ -88,14 +84,13 @@ exports[`renders correctly 1`] = `
               href="/todo"
               onClick={[Function]}
             >
-              <div>
+              <div
+                className="footerlink__name"
+              >
                 Äriklient
               </div>
             </a>
           </div>
-          <li>
-            sth
-          </li>
           <div
             className="footer__body--link"
           >
@@ -103,14 +98,13 @@ exports[`renders correctly 1`] = `
               href="/todo"
               onClick={[Function]}
             >
-              <div>
+              <div
+                className="footerlink__name"
+              >
                 Noortepank
               </div>
             </a>
           </div>
-          <li>
-            sth
-          </li>
           <div
             className="footer__body--link"
           >
@@ -118,14 +112,13 @@ exports[`renders correctly 1`] = `
               href="/todo"
               onClick={[Function]}
             >
-              <div>
+              <div
+                className="footerlink__name"
+              >
                 Privaatpangandus
               </div>
             </a>
           </div>
-          <li>
-            sth
-          </li>
           <div
             className="footer__body--link"
           >
@@ -133,7 +126,9 @@ exports[`renders correctly 1`] = `
               href="/todo"
               onClick={[Function]}
             >
-              <div>
+              <div
+                className="footerlink__name"
+              >
                 Ava konto
               </div>
             </a>
@@ -197,9 +192,6 @@ exports[`renders correctly 1`] = `
         <div
           className="card-body"
         >
-          <li>
-            sth
-          </li>
           <div
             className="footer__body--link"
           >
@@ -207,14 +199,13 @@ exports[`renders correctly 1`] = `
               href="/todo"
               onClick={[Function]}
             >
-              <div>
+              <div
+                className="footerlink__name"
+              >
                 Hinnakiri ja tingimused
               </div>
             </a>
           </div>
-          <li>
-            sth
-          </li>
           <div
             className="footer__body--link"
           >
@@ -222,14 +213,13 @@ exports[`renders correctly 1`] = `
               href="/todo"
               onClick={[Function]}
             >
-              <div>
+              <div
+                className="footerlink__name"
+              >
                 Ettepanekud ja kaebused
               </div>
             </a>
           </div>
-          <li>
-            sth
-          </li>
           <div
             className="footer__body--link"
           >
@@ -237,14 +227,13 @@ exports[`renders correctly 1`] = `
               href="/todo"
               onClick={[Function]}
             >
-              <div>
+              <div
+                className="footerlink__name"
+              >
                 Turvalisus
               </div>
             </a>
           </div>
-          <li>
-            sth
-          </li>
           <div
             className="footer__body--link"
           >
@@ -252,14 +241,13 @@ exports[`renders correctly 1`] = `
               href="/todo"
               onClick={[Function]}
             >
-              <div>
+              <div
+                className="footerlink__name"
+              >
                 Teata petulehest
               </div>
             </a>
           </div>
-          <li>
-            sth
-          </li>
           <div
             className="footer__body--link"
           >
@@ -267,7 +255,9 @@ exports[`renders correctly 1`] = `
               href="/todo"
               onClick={[Function]}
             >
-              <div>
+              <div
+                className="footerlink__name"
+              >
                 KKK
               </div>
             </a>
@@ -331,9 +321,6 @@ exports[`renders correctly 1`] = `
         <div
           className="card-body"
         >
-          <li>
-            sth
-          </li>
           <div
             className="footer__body--link"
           >
@@ -341,14 +328,13 @@ exports[`renders correctly 1`] = `
               href="/todo"
               onClick={[Function]}
             >
-              <div>
+              <div
+                className="footerlink__name"
+              >
                 Ettevõtest
               </div>
             </a>
           </div>
-          <li>
-            sth
-          </li>
           <div
             className="footer__body--link"
           >
@@ -356,14 +342,13 @@ exports[`renders correctly 1`] = `
               href="/todo"
               onClick={[Function]}
             >
-              <div>
+              <div
+                className="footerlink__name"
+              >
                 Tööpakkumised
               </div>
             </a>
           </div>
-          <li>
-            sth
-          </li>
           <div
             className="footer__body--link"
           >
@@ -371,14 +356,13 @@ exports[`renders correctly 1`] = `
               href="/todo"
               onClick={[Function]}
             >
-              <div>
+              <div
+                className="footerlink__name"
+              >
                 Uudised
               </div>
             </a>
           </div>
-          <li>
-            sth
-          </li>
           <div
             className="footer__body--link"
           >
@@ -386,14 +370,13 @@ exports[`renders correctly 1`] = `
               href="/todo"
               onClick={[Function]}
             >
-              <div>
+              <div
+                className="footerlink__name"
+              >
                 Investor
               </div>
             </a>
           </div>
-          <li>
-            sth
-          </li>
           <div
             className="footer__body--link"
           >
@@ -401,7 +384,9 @@ exports[`renders correctly 1`] = `
               href="/todo"
               onClick={[Function]}
             >
-              <div>
+              <div
+                className="footerlink__name"
+              >
                 Finantsportaal
               </div>
             </a>
@@ -465,9 +450,6 @@ exports[`renders correctly 1`] = `
         <div
           className="card-body"
         >
-          <li>
-            sth
-          </li>
           <div
             className="footer__body--link"
           >
@@ -475,14 +457,13 @@ exports[`renders correctly 1`] = `
               href="/todo"
               onClick={[Function]}
             >
-              <div>
+              <div
+                className="footerlink__name"
+              >
                 Kontaktid
               </div>
             </a>
           </div>
-          <li>
-            sth
-          </li>
           <div
             className="footer__body--link"
           >
@@ -490,14 +471,13 @@ exports[`renders correctly 1`] = `
               href="/todo"
               onClick={[Function]}
             >
-              <div>
+              <div
+                className="footerlink__name"
+              >
                 Kontorid
               </div>
             </a>
           </div>
-          <li>
-            sth
-          </li>
           <div
             className="footer__body--link"
           >
@@ -505,14 +485,13 @@ exports[`renders correctly 1`] = `
               href="/todo"
               onClick={[Function]}
             >
-              <div>
+              <div
+                className="footerlink__name"
+              >
                 Broneeri kohtumisaeg
               </div>
             </a>
           </div>
-          <li>
-            sth
-          </li>
           <div
             className="footer__body--link"
           >
@@ -520,7 +499,9 @@ exports[`renders correctly 1`] = `
               href="/todo"
               onClick={[Function]}
             >
-              <div>
+              <div
+                className="footerlink__name"
+              >
                 Sularahaautomaadid
               </div>
             </a>

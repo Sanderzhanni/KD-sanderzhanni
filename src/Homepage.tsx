@@ -1,11 +1,13 @@
 import React from 'react';
+import Hero from "./components/Hero";
 
-const Homepage = () =>(
+const Homepage = (): React.ReactElement => (
   <>
-     <div className={"content"}>
-         I am homepage
-     </div>
+    <div className="content">
+      <Hero/>
+      I am homepage
+    </div>
   </>
 );
 
-export default Homepage
+export default Homepage;
