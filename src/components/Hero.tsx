@@ -35,8 +35,9 @@ const CarouselComp = (): React.ReactElement =>(
           alt="slide"
         />
         <Carousel.Caption className={"carousel__caption"}>
-          <h3 className={"caption__title"}>Title2</h3>
-          <p>In hac habitasse platea dictumst. Vestibulum elementum nibh tortor. In vel fringilla enim, at elementum sapien.</p>
+          <h3 className={"caption__title"}>Investeerimine = LHV</h3>
+          <p>Balti aktsiatega kauplemine ja hoidmine LHV-s nüüd täiesti tasuta</p>
+          <p>Loe lähemalt</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
