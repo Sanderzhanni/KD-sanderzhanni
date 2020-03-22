@@ -11,7 +11,7 @@ exports[`testing header component renders correctly 1`] = `
       <img
         alt="lhv logo"
         className="lhv-logo"
-        src="lhv.png"
+        src="img/lhv.png"
       />
     </div>
     <div

@@ -1,11 +1,12 @@
 import React from 'react';
-import Hero from "./components/Hero";
+import Content from "./components/Content";
+import Podcast from "./components/Podcast";
 
 const Homepage = (): React.ReactElement => (
   <>
     <div className="content">
-      <Hero/>
-      I am homepage
+      <Content/>
+      <Podcast/>
     </div>
   </>
 );
