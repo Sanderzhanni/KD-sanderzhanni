@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing header component renders correctly 1`] = `
+Array [
+  <div
+    className="story"
+  >
+    <h3>
+      LHV loob roheliselt investeeriva hübriidpensionifondi
+    </h3>
+    <p>
+      LHV toob pensioniturule rohelisi ja jätkusuutlikke investeerimispõhimõtteid järgiva pensionifondi. Uus pensionifond kannab nime LHV Pensionifond Roheline ning selle investeerimisportfell hakkab koosnema sotsiaalselt vastutustundlikest, jätkusuutlikest ja keskkonnaalastest investeeringutest. Fondiga võetav aktsiarisk jääb sõltuvalt fondijuhi nägemusest alati 75% ja 100% vahele.
+    </p>
+    <a
+      href="/TODO"
+      onClick={[Function]}
+    >
+      Loe lisaks
+    </a>
+  </div>,
+  <div
+    className="story"
+  >
+    <h3>
+      Eriolukorra ajal töötavad kõik LHV pangateenused
+    </h3>
+    <p>
+      Koroonaviiruse leviku tõttu on Eestis kehtestatud eriolukord. Elutähtsa teenuse pakkujana jätkame LHV-s tööd ja anname endast parima, et saaksid pangateenuseid ka praegusel ajal mugavalt kasutada. LHV kliendina saad pea kõiki pangatoiminguid teha kodust lahkumata mobiiliäpi või internetipanga kaudu.
+    </p>
+    <a
+      href="/TODO"
+      onClick={[Function]}
+    >
+      Loe lisaks
+    </a>
+  </div>,
+]
+`;
