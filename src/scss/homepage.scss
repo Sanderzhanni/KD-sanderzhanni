@@ -1,0 +1,204 @@
+@media only screen and (min-width: 500px){
+
+  *, ::after, ::before{
+    font-family: 'Neue Helvetica W06','Helvetica Neue',sans-serif;
+  }
+
+  .mobile{
+    display: none;
+  }
+
+  .nav{
+    position: relative;
+    z-index: 1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #fff;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 20px;
+    .nav-content{
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      width: 70%;
+      .nav-left{
+        display: flex;
+        align-items: center;
+        .lhv-logo{
+          width: 84px;
+          height: 28px;
+          margin-right: 40px;
+        }
+        .vert-link{
+          display: block;
+          ul{
+            list-style: none;
+            margin: 0;
+            padding-left: 5px;
+            li{
+              a{
+                color: black;
+                text-decoration: none;
+                &.active{
+                  font-weight: bold;
+                }
+              }
+            }
+          }
+        }
+      }
+      .nav-right{
+        display: flex;
+        align-items: center;
+        button{
+          background: none;
+          border: none;
+          a{
+            color: black;
+            text-decoration: none;
+          }
+          .active{
+            font-weight: bold;
+            font-size: 11px;
+          }
+        }
+      }
+    }
+  }
+
+  .login-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: #f4f4f4;
+    padding: 10px;
+    ul{
+      display: flex;
+      list-style: none;
+      margin: 0;
+      .border-start{
+        border-left: 1px solid lightgray;
+        border-radius: 5px 0 0 5px;
+      }
+      .border-end{
+        border-right: 1px solid lightgray;
+        border-radius: 0 5px 5px 0;
+      }
+      li{
+        margin: 15px 0;
+        a{
+          border-top: 1px solid lightgray;
+          border-bottom: 1px solid lightgray;
+          padding: 6px 12px;
+          color: black;
+          text-decoration: none;
+        }
+        .selected{
+          background: #c2c2c5;
+        }
+      }
+    }
+    .username{
+      margin-left: 15px;
+      input{
+        border-radius: 5px;
+        border: 1px solid lightgray;
+        padding: 5px;
+      }
+    }
+    .login-btn{
+      margin-left: 15px;
+      button{
+        padding: 5px 15px;
+        background: #686868;
+        border: none;
+        border-radius: 5px;
+        color: white;
+      }
+    }
+  }
+
+  .quick-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: #f2f2f3;
+    padding: 15px;
+    a{
+      color: #00000F;
+      margin: 0 8px;
+      font-size: 13px;
+      text-decoration: none;
+    }
+  }
+
+  .carousel__comp{
+    height: 500px;
+    padding-bottom: 150px;
+    .back{
+      background: rgb(60,58,180);
+      background: linear-gradient(148deg, rgba(60,58,180,1) 0%, rgba(253,29,29,1) 24%, rgba(252,176,69,1) 90%);
+    }
+  }
+
+  .--carousel__img{
+    overflow: hidden;
+  }
+
+  .carousel-indicators li{
+    background-color: #00000f;
+  }
+
+  .carousel__caption{
+    top: 20%;
+    right: 60%;
+    width: 40%;
+    .caption__title{
+      margin-bottom: 20px;
+      font-size: 45px;
+      font-weight: 200;
+      line-height: 50px;
+      letter-spacing: -1px;
+      color: #00000f;
+      text-shadow: 0 0 10px rgba(68,76,93,0.24);
+    }
+    p{
+      color: black;
+      font-weight: 600;
+      letter-spacing: -1px;
+      text-shadow: none;
+      font-size: 45px;
+    }
+    .light{
+      color: #e4e4e4;
+      font-weight: 300;
+      letter-spacing: -1px;
+      text-shadow: none;
+      font-size: 24px;
+    }
+    .lightCapt{
+      color: white;
+    }
+    a{
+      text-decoration: none;
+      text-transform: none;
+      line-height: 1.4;
+      font-size: 18px;
+      font-weight: 600;
+      color: #00000f;
+      &:after {
+        content: ' →';
+        font-family: 'Minion Pro','HelveticaNeue-Light','Helvetica Neue Light','Helvetica Neue',Calibri,Arial,sans-serif;
+      }
+    }
+  }
+
+  .content{
+    margin-top: 50px;
+  }
+
+}
+

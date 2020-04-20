@@ -6,11 +6,14 @@ import Homepage from './Homepage';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Hero from "./components/Hero";
+import LoginForm from "./components/LoginForm";
+import QuickLinks from "./components/QuickLinks";
 
 const App: React.FC = () => (
   <BrowserRouter>
-    <div className="warning">SWITCH TO MOBILE VIEW</div>
     <Header />
+    <LoginForm/>
+    <QuickLinks/>
     <Hero/>
     <Switch>
       <Route exact path="/" component={Homepage} />

@@ -4,6 +4,22 @@
     width: 100%;
   }
 
+  .vert-link{
+    display: none;
+  }
+
+  .login-form{
+    display: none;
+  }
+
+  .quick-links{
+    display: none;
+  }
+
+  .carousel-desktop{
+    display: none;
+  }
+
   .nav{
     display: flex;
     justify-content: space-between;
@@ -11,6 +27,9 @@
     background-color: white;
     height: 60px;
     padding: 0 15px;
+    .nav-content{
+      display: none;
+    }
   }
 
   .lhv-logo{
@@ -105,10 +124,9 @@
   }
 
   .carousel__comp{
-    height: 580px;
+    height: 500px;
     padding-bottom: 150px;
   }
-
   .--carousel__img{
     overflow: hidden;
   }
