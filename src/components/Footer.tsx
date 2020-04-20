@@ -87,7 +87,8 @@ const Acc = (props: AccProps): React.ReactElement =>(
         HandleAccordionToggle={props.HandleAccordionToggle}
         activeName={props.activeName}
       >
-        <FooterLink path={"todo"} name={"Eraklient"}/>
+        {/*TODO - Replace with actual paths*/}
+        <FooterLink path={"TODO"} name={"Eraklient"}/>
         <FooterLink path={"todo"} name={"Äriklient"}/>
         <FooterLink path={"todo"} name={"Noortepank"}/>
         <FooterLink path={"todo"} name={"Privaatpangandus"}/>
