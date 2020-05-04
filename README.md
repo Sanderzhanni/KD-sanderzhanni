@@ -10,7 +10,7 @@ $ npm install
 $ npm run start
 ```
 **View online - https://hannis-kd-2020.herokuapp.com/**
-(Last updated 20.04.2020 11:33am)
+(Last updated 04.05.2020 07:13am)
 
 ## Bootstrap
 React-Bootstrap allows for quick snippets of code to be added into a project. This framework makes developing a lot faster, because instead of writing those components yourself, you can just add them to your project and customize them accordingly.
