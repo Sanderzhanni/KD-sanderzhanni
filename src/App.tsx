@@ -18,7 +18,7 @@ const App: React.FC = () => (
     <Hero/>
     <Switch>
       <Route exact={true} path="/" component={Homepage} />
-      <Route path={"/TODO"} exact={true} component={NotFound} />
+      <Route path={"*"} exact={true} component={NotFound} />
     </Switch>
     <Footer />
   </BrowserRouter>
