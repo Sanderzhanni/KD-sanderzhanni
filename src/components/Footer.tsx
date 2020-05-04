@@ -41,6 +41,7 @@ class Footer extends React.PureComponent<{}, State>{
       <>
         <div className={"footer-container"}>
           <Acc HandleAccordionToggle={this.HandleAccordionToggle} activeName={this.state.activeEvent}/>
+          <QuickMenu />
           <SocialMediaIcons/>
           <Disclaimer/>
         </div>
@@ -48,6 +49,33 @@ class Footer extends React.PureComponent<{}, State>{
     );
   }
 }
+
+const QuickMenu = (): React.ReactElement => {
+  return(
+    <div className="quick__menu">
+      <div className="menu-elements">
+        <div>
+          <ul>
+            <span className="footerlink__header">TULE KLIENDIKS</span>
+            <FooterLinkColumn column={1}/>
+          </ul>
+        </div>
+        <div>
+          <span className="footerlink__header">LEIA KIIRELT</span>
+          <FooterLinkColumn column={2}/>
+        </div>
+        <div>
+          <span className="footerlink__header">LHV</span>
+          <FooterLinkColumn column={3}/>
+        </div>
+        <div>
+          <span className="footerlink__header">KONTAKT</span>
+          <FooterLinkColumn column={4}/>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 const Disclaimer = (): React.ReactElement => (
   <div className={"footer__disclaimer"}>
@@ -81,42 +109,74 @@ interface AccProps {
 
 const Acc = (props: AccProps): React.ReactElement =>(
   <>
-    <Accordion>
+    <Accordion className={"footer__Accordion"}>
       <AccordionCard name={"TULE KLIENDIKS"}
         eventKey={"0"}
         HandleAccordionToggle={props.HandleAccordionToggle}
         activeName={props.activeName}
       >
-        {/*TODO - Replace with actual paths*/}
+        <FooterLinkColumn column={1}/>
+      </AccordionCard>
+      <AccordionCard name={"LEIA KIIRELT"} eventKey={"1"} HandleAccordionToggle={props.HandleAccordionToggle} activeName={props.activeName}>
+        <FooterLinkColumn column={2}/>
+      </AccordionCard>
+      <AccordionCard name={"LHV"} eventKey={"3"} HandleAccordionToggle={props.HandleAccordionToggle} activeName={props.activeName}>
+        <FooterLinkColumn column={3}/>
+      </AccordionCard>
+      <AccordionCard name={"KONTAKT"} eventKey={"4"} HandleAccordionToggle={props.HandleAccordionToggle} activeName={props.activeName}>
+        <FooterLinkColumn column={4}/>
+      </AccordionCard>
+    </Accordion>
+  </>
+);
+
+interface FooterLinkColumnProps {
+  column: number;
+}
+
+const FooterLinkColumn = (props: FooterLinkColumnProps): React.ReactElement => {
+  const { column } = props;
+  switch(column){
+    default: return <div>Empty</div>;
+    case 1: return (
+      <>
         <FooterLink path={"TODO"} name={"Eraklient"}/>
         <FooterLink path={"todo"} name={"Äriklient"}/>
         <FooterLink path={"todo"} name={"Noortepank"}/>
+        <FooterLink path={"todo"} name={"Lapsekonto"}/>
+        <FooterLink path={"todo"} name={"Au-klient"}/>
         <FooterLink path={"todo"} name={"Privaatpangandus"}/>
-        <FooterLink path={"todo"} name={"Ava konto"}/>
-      </AccordionCard>
-      <AccordionCard name={"LEIA KIIRELT"} eventKey={"1"} HandleAccordionToggle={props.HandleAccordionToggle} activeName={props.activeName}>
+        <FooterLink path={"todo"} name={"Ava konto →"}/>
+      </>
+    );
+    case 2: return (
+      <>
         <FooterLink path={"todo"} name={"Hinnakiri ja tingimused"}/>
         <FooterLink path={"todo"} name={"Ettepanekud ja kaebused"}/>
         <FooterLink path={"todo"} name={"Turvalisus"}/>
         <FooterLink path={"todo"} name={"Teata petulehest"}/>
         <FooterLink path={"todo"} name={"KKK"}/>
-      </AccordionCard>
-      <AccordionCard name={"LHV"} eventKey={"3"} HandleAccordionToggle={props.HandleAccordionToggle} activeName={props.activeName}>
+      </>
+    );
+    case 3: return (
+      <>
         <FooterLink path={"todo"} name={"Ettevõtest"}/>
         <FooterLink path={"todo"} name={"Tööpakkumised"}/>
         <FooterLink path={"todo"} name={"Uudised"}/>
         <FooterLink path={"todo"} name={"Investor"}/>
         <FooterLink path={"todo"} name={"Finantsportaal"}/>
-      </AccordionCard>
-      <AccordionCard name={"KONTAKT"} eventKey={"4"} HandleAccordionToggle={props.HandleAccordionToggle} activeName={props.activeName}>
+      </>
+    );
+    case 4: return (
+      <>
         <FooterLink path={"todo"} name={"Kontaktid"}/>
         <FooterLink path={"todo"} name={"Kontorid"}/>
         <FooterLink path={"todo"} name={"Broneeri kohtumisaeg"}/>
         <FooterLink path={"todo"} name={"Sularahaautomaadid"}/>
-      </AccordionCard>
-    </Accordion>
-  </>
-);
+      </>
+    );
+  }
+};
 
 interface AccordionCardProps {
   children?:  React.ReactNode;
