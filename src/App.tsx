@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import Hero from "./components/Hero";
 import LoginForm from "./components/LoginForm";
 import QuickLinks from "./components/QuickLinks";
+import NotFound from "./components/NotFound";
 
 const App: React.FC = () => (
   <BrowserRouter>
@@ -16,8 +17,8 @@ const App: React.FC = () => (
     <QuickLinks/>
     <Hero/>
     <Switch>
-      <Route exact path="/" component={Homepage} />
-      {/* <Route path={"notfound"} component={}/> */}
+      <Route exact={true} path="/" component={Homepage} />
+      <Route path={"/TODO"} exact={true} component={NotFound} />
     </Switch>
     <Footer />
   </BrowserRouter>

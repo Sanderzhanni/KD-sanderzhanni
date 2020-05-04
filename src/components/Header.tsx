@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import classNames from "classnames";
+import {Link} from "react-router-dom";
 
 
 const Header = (): React.ReactElement =>{
@@ -8,11 +9,15 @@ const Header = (): React.ReactElement =>{
     <>
       <div className={"nav-container"}>
         <div className={"nav"}>
-          <img src={process.env.PUBLIC_URL + 'img/lhv.png'} alt="lhv logo" className={"lhv-logo mobile"}/>
+          <Link to={"/"}>
+            <img src={process.env.PUBLIC_URL + 'img/lhv.png'} alt="lhv logo" className={"lhv-logo mobile"}/>
+          </Link>
           <div className={"nav-button mobile"}>Sisene</div>
           <div className={"nav-content"}>
             <div className="nav-left">
-              <img src={process.env.PUBLIC_URL + 'img/lhv.png'} alt="lhv logo" className={"lhv-logo"}/>
+              <Link to={"/"}>
+                <img src={process.env.PUBLIC_URL + 'img/lhv.png'} alt="lhv logo" className={"lhv-logo"}/>
+              </Link>
               <div className="vert-link">
                 <ul>
                   <li><a href="TODO" className={classNames({active: active})}>PANK</a></li>
