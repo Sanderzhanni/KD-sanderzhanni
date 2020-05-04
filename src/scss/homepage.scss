@@ -144,6 +144,10 @@
     }
   }
 
+  .carousel-item{
+    max-height: 500px;
+  }
+
   .--carousel__img{
     overflow: hidden;
   }
@@ -259,6 +263,82 @@
       margin-left: auto;
       width: 65%;
       color: #00000F;
+    }
+  }
+
+  .content-elemements{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    .story{
+      width: 30%;
+      h3{
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 300;
+        color: #00000f;
+      }
+      font-size: 16px;
+      a{
+        color: #00000f;
+        text-decoration: none;
+        cursor: pointer;
+        font-weight: 600;
+      }
+      a::after{
+        content: ' →';
+        font-family: 'Minion Pro','HelveticaNeue-Light','Helvetica Neue Light','Helvetica Neue',Calibri,Arial,sans-serif;
+      }
+    }
+    .podcast{
+      h3{
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 300;
+        color: #00000f;
+      }
+      div{
+        position: relative;
+        padding-left: 34px;
+        line-height: 22px;
+        height: 24px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        margin-bottom: 10px;
+        display: block;
+        text-decoration: none;
+      }
+      div::before{
+        content: '';
+        height: 24px;
+        width: 24px;
+        background: url(https://www.lhv.ee/assets/images/elements/play-video.svg);
+        background-size: cover;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+      a{
+        color: #00000f;
+        text-decoration: none;
+        cursor: pointer;
+        font-weight: 600;
+      }
+      a::after{
+        content: ' →';
+        font-family: 'Minion Pro','HelveticaNeue-Light','Helvetica Neue Light','Helvetica Neue',Calibri,Arial,sans-serif;
+      }
     }
   }
 

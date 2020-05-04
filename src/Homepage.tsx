@@ -5,8 +5,10 @@ import Podcast from "./components/Podcast";
 const Homepage = (): React.ReactElement => (
   <>
     <div className="content">
-      <Content/>
-      <Podcast/>
+      <div className="content-elemements">
+        <Content/>
+        <Podcast/>
+      </div>
     </div>
   </>
 );
